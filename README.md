@@ -44,4 +44,5 @@
 - `HttpStatusChecker`
 - `HttpStatusImageDownloader`
 - `HttpImageStatusCli`
+
 Можуть бути також створені додаткові класи при потребі.
