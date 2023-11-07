@@ -12,7 +12,7 @@ public class HttpStatusChecker {
 
         int responseCode = connection.getResponseCode();
         if (responseCode == 404) {
-            throw new IOException("File with code " + code + " already exist!");
+            throw new IOException("Code is " + code + " does not exist");
         }
 
         return imageUrl;

@@ -18,9 +18,6 @@ public class HttpImageStatusCli {
                 }
 
                 try {
-                    HttpStatusChecker checker = new HttpStatusChecker();
-                    checker.getStatusImage(code);
-
                     HttpStatusImageDownloader downloader = new HttpStatusImageDownloader();
                     downloader.downloadStatusImage(code);
 
